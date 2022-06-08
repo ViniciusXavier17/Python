@@ -1,5 +1,3 @@
-#cpf_principal = input('Digite o CPF que deseja validar(sem pontos): ')
-#cpf_temporario = cpf_principal[:-2]
 total = 0
 total2 = 0
 while True:
