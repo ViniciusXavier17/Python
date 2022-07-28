@@ -2,7 +2,7 @@ import re
 
 
 def fomarta_string(cnpj):
-    return re.sub(r'[^ 0-9]', '', cnpj)
+    return re.sub(r'[^ 0-9]', '', cnpj)  # retornando apenas números, tirando caracteres 
 
 
 def calcula_digito(cnpj):
